@@ -1,0 +1,21 @@
+:root{
+    --font-family: 'Inter', sans-serif;
+    --font-family: 'Lexend Deca', sans-serif;
+    --font-family: 'Poppins', sans-serif;
+    --font-family: 'Roboto Slab', serif;
+    --font-family: 'Rowdies', cursive;
+    --font-weight-light:300;
+    --font-weight-regular:400;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+}
+body{
+    font-family:var(--font-family);
+}
+h1{
+    font-weight: var(--font-weight-regular);
+}
+.container,.row{
+    margin:0;
+    padding:0;
+}
