@@ -11,6 +11,8 @@
 }
 body{
     font-family:var(--font-family);
+    background-color:#F9F1F1;
+    font-size:16px;
 }
 h1{
     font-weight: var(--font-weight-regular);
@@ -18,4 +20,8 @@ h1{
 .container,.row{
     margin:0;
     padding:0;
+}
+.carousel-item>img{
+    width:400px;
+    height:400px;
 }
