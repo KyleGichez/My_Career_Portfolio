@@ -19,11 +19,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Lexend+Deca&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@300;400;600;700&family=Rowdies:wght@300;400;700&display=swap"
         rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-1 mb-2 bg-body rounded">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-1 mb-2 bg-body ">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://github.com/KyleGichez">
                 <img src="./static/images/favicon.ico" alt="Logo" width="50">
@@ -77,19 +79,30 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs mb-2">
+                <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs mb-3">
                     <h4>Overview</h4>
-                    <hr class="bg-dark">
+                    <hr class="hor">
                     <p>My name is Gichure Maina and I am a Web Developer. I build E-commerce websites for clients
-                        who are business owners and need to sell their products online, track their sales online,
+                        who are business owners and need to sell their products online, track their sales,
                         reach customers easily and also provide good customer service on their online shop. </p>
-                    <a class="btn btn-dark" href=""><i class="fa fa-linkedin fa-fa-2x" aria-hidden="true"></i></a>
-                    <a class="btn btn-dark" href=""><i class="fa fa-github fa-fa-2x" aria-hidden="true"></i></a>
-                    <a class="btn btn-dark" href=""><i class="fa fa-twitter fa-fa-2x" aria-hidden="true"></i></a>
-                    <a class="btn btn-dark" href=""><i class="fa fa-instagram fa-fa-2x" aria-hidden="true"></i></a>
+                    <div class="social-media-icons mb-3">
+                        <a class="btn btn-dark" href=""><i class="fa fa-linkedin fa-fa-2x" aria-hidden="true"></i></a>
+                        <a class="btn btn-dark" href=""><i class="fa fa-github fa-fa-2x" aria-hidden="true"></i></a>
+                        <a class="btn btn-dark" href=""><i class="fa fa-twitter fa-fa-2x" aria-hidden="true"></i></a>
+                        <a class="btn btn-dark" href=""><i class="fa fa-instagram fa-fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="themes mb-2">
+                        <h4>Choose Theme</h4>
+                        <hr class="hor">
+                        <p><small>Click a button to choose a theme</small></p>
+                        <button id="light_theme_button" type="button" class="btn btn-light">Light</button>
+                        <button id="red_theme_button" type="button" class="btn btn-danger">Red</button>
+                        <button id="green_theme_button" type="button" class="btn btn-success">Green</button>
+                    </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs">
-                    <img class="rounded" src="./static/images/Gichure.jpg" alt="" width="300">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs mb-3">
+                    <img class="rounded shadow bg-body border border-secondary" src="./static/images/Gichure.jpg" alt=""
+                        width="300">
                 </div>
             </div>
         </div>

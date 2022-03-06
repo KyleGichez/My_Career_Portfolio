@@ -11,8 +11,9 @@
 }
 body{
     font-family:var(--font-family);
-    background-color:#F9F1F1;
+    background-color:#230606;
     font-size:16px;
+    color:ghostwhite;
 }
 h1{
     font-weight: var(--font-weight-regular);
@@ -21,7 +22,23 @@ h1{
     margin:0;
     padding:0;
 }
-.carousel-item>img{
-    width:400px;
-    height:400px;
+.card>img{
+    width:10rem;
+    height:10rem;
+}
+.light_background{
+    background-color:#F1F9F3;
+    color:black;
+}
+.red_background{
+    background-color: red;
+    color:black;
+}
+.green_background{
+    background-color:#89E462;
+    color:#230606;
+}
+.hor{
+    color:#1D27ED;
+    font-size: 3px;
 }
