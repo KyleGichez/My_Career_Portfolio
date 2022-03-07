@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("#light_theme_button").click(function () {
+    $("#black_theme_button").click(function () {
         $("body").removeClass();
-        $("body").addClass("light_background");
+        $("body").addClass("black_background");
     });
 });
 
