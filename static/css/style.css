@@ -37,7 +37,7 @@ h5{
     width:9.9rem;
     height:10rem;
 }
-.black_background{
+.black_background,#submit{
     color:ghostwhite;
     background-color: #230606;
 }
@@ -58,4 +58,8 @@ h5{
 }
 #lists_header{
     background-color: #E4F0A8;
+}
+#submit:hover{
+    background-color:orange;
+    color:ghostwhite;
 }
