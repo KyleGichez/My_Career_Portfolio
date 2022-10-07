@@ -11,7 +11,7 @@
 }
 body{
     font-family:var(--font-family);
-    background-color:#F1F9F3;
+    background-color:#f9f7f0;
     font-size:16px;
     color:#230606;
 }
@@ -34,8 +34,7 @@ h5{
 -moz-box-shadow: 1px 4px 17px 0px rgba(0,0,0,0.75);
 }
 .card>img{
-    width:9.9rem;
-    height:10rem;
+    height:200px;
 }
 .black_background,#submit{
     color:ghostwhite;
